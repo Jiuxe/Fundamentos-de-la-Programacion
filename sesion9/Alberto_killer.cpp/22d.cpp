@@ -1,10 +1,6 @@
 /*
-Hacer la sucesión de Fibonacci con una función recursiva
+Hacer la sucesiÃ³n de Fibonacci con una funciÃ³n recursiva
 */
-
-#include<iostream>
-
-using namespace std;
 
 #include<iostream>
 using namespace std;
@@ -21,11 +17,12 @@ int main(){
 	
 	int n;
 	
-	cout << "Introduzca número n de la sucesión: " << endl;
+	cout << "Introduzca nÃºmero n de la sucesiÃ³n: ";
 	cin >> n;
 	
 	for(int i=1; i<=n; i++){
 		cout << fibo(i) << " " ;
 	}
+	cout << endl;
 }
 	
