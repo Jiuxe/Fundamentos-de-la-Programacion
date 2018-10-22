@@ -1,10 +1,9 @@
 /*
-Hacer una función que intercambie dos valores
+Hacer una funciÃ³n que intercambie dos valores
 */
 
 
 #include<iostream>
-
 using namespace std;
 
 void Intercambia(int &valor1, int &valor2){
@@ -19,7 +18,7 @@ int main(){
 	
 	int n1, n2;
 	
-	cout << "Introduca dos números: " << endl;
+	cout << "Introduzca dos nÃºmeros: ";
 	cin >> n1 >> n2;
 	
 	Intercambia(n1, n2);
